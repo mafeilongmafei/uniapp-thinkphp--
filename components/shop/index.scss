@@ -1,0 +1,56 @@
+.shopContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	.shopItem {
+		width: 49%;
+		font-size: 26upx;
+		color: #877A73;
+		background-color: #fff;
+		.img {
+			width: 100%;
+			height: 368upx;
+			image {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.shopDirection {
+			padding: 18upx 20upx;
+			background-color: #fff;
+			.text{
+				width: 100%;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				text-align: center;
+				margin-top: 5upx;
+			}
+			.youhui {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 5upx;
+				.tianmao {
+					box-sizing: content-box;
+					padding: 1upx;
+					display: inline-block;
+					background-color: #FF4000;
+					color: #fff;
+					
+				}
+			}
+			.shopItem_bottom {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 5upx;
+				.price {
+					color: #FA585A;
+					font-size: 28upx;
+				}
+				
+			}
+		}
+		
+	}
+}

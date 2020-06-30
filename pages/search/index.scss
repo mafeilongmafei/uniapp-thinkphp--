@@ -1,0 +1,83 @@
+.searchContainer {
+	background-color: #fff;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	.header {
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		z-index: 6;
+		background-color: #fdde4a;
+		/* #ifdef APP-PLUS */
+		padding-top:  calc(var(--status-bar-height) - 25upx);
+		/* #endif */
+		.search {
+			width: 100%;
+			height: 94upx;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: #573812;
+			background-color: #fdde4a;
+			font-size: 30upx;
+			padding: 0 30upx;
+		
+			
+			.input {
+				display: flex;
+				align-items: center;
+				width: 522upx;
+				height: 56upx;
+				border-radius: 12upx;
+				background-color: #eeeeee;
+				input {
+					font-size: 26upx;
+				}
+				
+				.icon-sousuo {
+					font-size: 46upx;
+					margin-left: 20upx;
+					color: #573812;
+				}
+				
+				
+			}
+		}
+	}
+		
+	.shoplist {
+		flex: 1;
+		margin-top: 186upx;
+		
+	}
+	.hot {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 35upx;
+		.hotSearch {
+			text {
+				color: #877a73;
+				font-size: 32upx;
+				
+			}
+		}
+		.hot_item {
+			
+			display: inline-block;
+			border-radius: 12upx;
+			margin-right:36upx;
+			margin-top:36upx;
+			padding: 12upx;
+			color: #573812;
+			font-size: 30upx;
+			background-color: #f5f5f5;
+		}
+		.hotC {
+			color: #f97394;
+		}
+	}
+}

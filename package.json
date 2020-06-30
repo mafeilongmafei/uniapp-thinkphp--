@@ -1,0 +1,16 @@
+{
+  "name": "watchs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboard": "^2.0.6",
+    "jweixin-module": "^1.6.0",
+    "vue-clipboard2": "^0.3.1"
+  }
+}

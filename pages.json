@@ -1,0 +1,137 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator":"none"
+				}
+			}
+		}, {
+			"path": "pages/like/like",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator":"none"
+				}
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator":"none"
+				}
+			}
+		}, {
+			"path": "pages/collect/collect",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator":"none"
+					
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTitleText":"搜索"
+			}
+        },
+		{
+		    "path" : "pages/shopDetail/shopDetail",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTitleText":"商品详情"
+			}
+		}
+        ,{
+            "path" : "pages/column/column",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "app-plus": {
+            	"titleNView": false
+            },
+			"navigationBarTitleText":"登录"
+        }
+        ,{
+            "path" : "pages/chat/chat",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTitleText":"通讯录"
+			}
+        }
+        ,{
+            "path" : "pages/findBack/findBack",
+            "style" : {
+				"navigationBarTitleText":"找回密码"
+			}
+        }
+        ,{
+            "path" : "pages/chatDetail/chatDetail",
+            "style" : {
+				"titleNView": false
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "熊猫优选",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"backgroundColor": "white",
+		"color": "#563a25",
+		"selectedColor": "#563a25",
+		"borderStyle":"black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabar/home.png",
+				"selectedIconPath": "static/tabar/homes.png",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/like/like",
+				"iconPath": "static/tabar/z.png",
+				"selectedIconPath": "static/tabar/zs.png",
+				"text": "好物"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"iconPath": "static/tabar/l.png",
+				"selectedIconPath": "static/tabar/ls.png",
+				"text": "信息"
+			},
+
+			{
+				"pagePath": "pages/collect/collect",
+				"iconPath": "static/tabar/t.png",
+				"selectedIconPath": "static/tabar/ts.png",
+				"text": "通讯录"
+			},
+			
+
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabar/my.png",
+				"selectedIconPath": "static/tabar/mys.png",
+				"text": "我的"
+			}
+
+		]
+	}
+}

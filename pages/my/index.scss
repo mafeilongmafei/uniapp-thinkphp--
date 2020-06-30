@@ -1,0 +1,111 @@
+	.userContainer {
+		width: 100%;
+		height: calc(100vh - var(--window-bottom) - var(--status-bar-height));
+		position: fixed;
+		background-color: #efeff4;
+		.login {
+			position: fixed;
+			bottom: var(--window-bottom);
+			left: 0;
+			right: 0;
+			text-align: center;
+			background-color: #007aff;
+			color: #FFFFFF;
+		}
+	}
+	.userInfo {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		image {
+			width: 100upx;
+			height: 100upx;
+			border-radius: 50%;
+		}
+	
+	
+		
+		
+	}
+	
+	.loginHome {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 100%;
+		height: 380upx;
+		margin-left: -50%;
+		margin-top: -190upx;
+		padding: 24upx 10upx;
+		.user {
+			
+			
+			.inp {
+				height: 60upx;
+				display: flex;
+				align-items: center;
+				background-color: #fff;
+				input {
+					flex: 1;
+				}
+				text {
+					font-size: 32upx;
+				}
+			}
+			.userPassword {
+				margin-top: 1upx;
+				.icon-yanjing {
+					font-size: 44upx;
+					color: #666666;
+				}
+				.yanjingBg {
+					color: #000000;
+				}
+				text {
+					font-size: 32upx;
+				}
+			}
+		}
+		.login_bottom {
+			margin-top:30upx;
+			color: #FFFFFF;
+			.switchStatus {
+				width: 100%;
+				margin-top: 10upx;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				text {
+					color: #0faeff;
+					font-size: 32upx;
+				}
+				text:nth-child(2) {
+					color: #582068;
+				}
+			}
+		}
+		
+	}
+	
+	.input {
+		height: 100%;
+		.uni-input-wrapper{
+			.uni-input-placeholder{
+				height: 100%;
+				font-size: 32upx;
+				height: 100%;
+				display: flex;
+				align-items: center;
+			}
+		}
+		
+}
+.toEmail {
+	height: 100%;
+	font-size: 32upx;
+	color: #ccc;
+}
+.yiEmail {
+	color: #000000;
+}

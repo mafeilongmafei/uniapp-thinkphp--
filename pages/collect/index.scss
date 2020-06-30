@@ -1,0 +1,23 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	padding-top: var(--status-bar-height);
+	background-color: #ededed;
+	.header_title {
+		width: 100%;
+		height: 100upx;
+		border-radius: 1upx solid #ccc;
+	}
+	.main_content {
+		flex: 1;
+		background-color: red;
+	}
+	.userfooter {
+		width: 100%;
+		height: 110upx;
+		background-color: #e5e5e5;
+	}
+}
+
