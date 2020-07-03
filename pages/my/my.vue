@@ -160,11 +160,8 @@
 						nickname : this.nickname
 					}
 				if(this.isLogin) {
-					try {
-						let res = await UserLogin(data)
-					}catch(e) {
-						console.log(e)
-					}
+					
+					let res = await UserLogin(data)
 					this.userInfo = res.fid
 					uni.setStorageSync("userInfo", this.userInfo)
 					uni.setStorageSync("token", res.token)
